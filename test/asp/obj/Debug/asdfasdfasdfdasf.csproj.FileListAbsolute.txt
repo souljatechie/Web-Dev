@@ -1,0 +1,5 @@
+C:\Users\Redbeard\Documents\Projects\asdfasdfasdfdasf\asdfasdfasdfdasf\bin\asdfasdfasdfdasf.dll
+C:\Users\Redbeard\Documents\Projects\asdfasdfasdfdasf\asdfasdfasdfdasf\bin\asdfasdfasdfdasf.pdb
+C:\Users\Redbeard\Documents\Projects\asdfasdfasdfdasf\asdfasdfasdfdasf\obj\Debug\asdfasdfasdfdasf.csprojResolveAssemblyReference.cache
+C:\Users\Redbeard\Documents\Projects\asdfasdfasdfdasf\asdfasdfasdfdasf\obj\Debug\asdfasdfasdfdasf.dll
+C:\Users\Redbeard\Documents\Projects\asdfasdfasdfdasf\asdfasdfasdfdasf\obj\Debug\asdfasdfasdfdasf.pdb

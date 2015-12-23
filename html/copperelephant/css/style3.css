@@ -1,0 +1,271 @@
+/***************************************************************************
+    GENERAL
+****************************************************************************/
+
+a {
+    text-decoration:none;
+}
+
+#wrapper{
+    max-width: 940px;
+	margin: 0 auto;
+    padding: 0 5%;
+}
+
+body{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	
+}
+img{
+    max-width: 100%;
+}
+h3{
+    margin: 0 0 1em 0;
+}
+
+/***************************************************************************
+    HEADING
+****************************************************************************/
+header{
+    float:left;
+    margin: 5 0 0px 0;
+    padding: 0px 0 0 0;
+    width: 100%;
+}
+#logo{
+    text-align: center;
+    margin: 0;
+	color: fff;
+	
+}
+h1{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+}
+h2{
+    font-size: 0.75em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+/*#border{
+	background:url("../img/wood_texture3809.jpg");
+	/*background-size: 72.72px 35.73px;*/
+	/*background-size: 300px 35.73px;
+	background-repeat:repeat-x;*/
+	/*width:1%;
+	height:15px*/
+	
+	
+	/*border-bottom: double thick;
+	border-image:url(../img/wood_texture3809.jpg)  repeat;
+	border-bottom-width:100%;
+	border-image-width: 100%;*/
+	}
+
+
+/***************************************************************************
+    NAVIGATION
+****************************************************************************/
+/*nav{
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+nav ul{
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    font-weight:800;
+    padding: 15px 10px;
+}
+*/
+nav ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+ -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+nav ul li {
+  font: bold 16px/18px sans-serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 5px;
+  background: #362F30;
+  color:fff;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+nav ul li:hover {
+  background: #555;
+  color: #fff;
+}
+nav ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+nav ul li ul li { 
+  background: #555; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+nav ul li ul li:hover { background: #666; }
+nav ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+nav{
+    background: #362F30;
+}
+nav a, nav a:visited{
+    color:#fff;
+}
+
+nav a.selected, nav a:hover{
+    color:#fcbff6;
+}
+
+
+/***************************************************************************
+    FOOTER
+****************************************************************************/
+footer{
+    font-size:0.75em;
+	text-align: center;
+    clear:both;
+    padding-top: 50px;
+    color: #000;
+}
+
+.social-icon{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+
+}
+
+/***************************************************************************
+    PHOTO GALLERY
+****************************************************************************/
+#gallery{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li{
+    float: left;
+	width: 45%;
+    margin: .5% .75%;
+	background-color: #fff;
+    color: #bdc3c7;
+}
+#gallery li a img {
+	height: 175px;
+	width: 400px;
+}
+	
+/*#gallery li a p{
+    margin: 0;
+    padding: 5%;
+    font-size: 0.75em;
+    color: #bdc3c7;
+}*/
+
+/***************************************************************************
+   PAGE: ABOUT
+****************************************************************************/
+.profile-photo {
+    text-align:center;
+    max-width: 300px;
+    max-height:300px;
+    margin: 40px auto 30px;
+    border-radius: 25%;
+
+}
+
+
+/***************************************************************************
+   PAGE: CONTACT
+****************************************************************************/
+.contact-info{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a{
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info li.phone a{
+background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a{
+background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a{
+background-image: url('../img/twitter.png');
+}
+
+/***************************************************************************
+    COLORS
+****************************************************************************/
+
+/* site body*/
+body{
+    background-color:#FCBFF6;
+    color: #000;
+}
+
+/*blue header*/
+header{
+  /*  background: #6ab47b; */
+  	background:#362F30;
+   /* border-color:#000;*/
+}
+
+h1, h2 {
+    color: #fff;
+}
+

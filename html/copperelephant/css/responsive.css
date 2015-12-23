@@ -1,0 +1,154 @@
+@media screen and (min-width: 480px){
+    /***************************************************************************
+    TWO COLUMN LAYOUT
+    ****************************************************************************/
+    #primary{
+        width: 50%;
+        float:left;
+    }
+    #secondary{
+        width: 40%;
+        float: right;
+	}
+    
+
+    /***************************************************************************
+    PAGE: PORTFOLIO
+    ****************************************************************************/
+    #gallery li{
+        width: 28.3333%;
+    }
+	
+
+    /***************************************************************************
+    PAGE: ABOUT
+    ****************************************************************************/
+    .profile-photo{
+        float:left;
+        margin: 0 5% 80px 0;
+
+    }
+	
+}  
+
+@media screen and (min-width: 600px){ 
+   /***************************************************************************
+    HEADER
+    ****************************************************************************/
+   
+   nav ul li {
+	   font: bold 16px/18px sans-serif;
+	   display: inline-block;
+	   margin-right: -4px;
+	   padding: 15px 5px;
+	   position:relative;
+	   z-index: 4;
+	   background: #362F30;
+	   color:fff;
+	   cursor: pointer;
+	   -webkit-transition: all 0.2s;
+	   -moz-transition: all 0.2s;
+	   -ms-transition: all 0.2s;
+	   -o-transition: all 0.2s;
+	   transition: all 0.2s;
+   }
+   
+
+   h1{
+       font-size: 2.5em;
+   }
+   h2{
+       font-size:0.825em;
+       margin-bottom: 20px;
+   }
+   
+   header{	   
+       margin-bottom: 0;
+	  
+   }
+   
+   .profile-photo {
+    	text-align:center;
+   	 	max-width: 300px;
+    	max-height:500px;
+    	margin: 0 5% 80px 0;
+    	border-radius: 25%;
+}
+
+	.flex-container {
+	  	min-width: 150px;
+	  	max-width: 350px;
+	  	margin-top: 20px;
+		margin: 0 auto;
+    	padding: .5% 5%;
+		z-index: 1;
+	}
+	 
+	
+}
+
+@media screen and (min-width: 1024px){ 
+   /***************************************************************************
+    HEADER
+    ****************************************************************************/
+
+   h1{
+       font-size: 2.5em;
+   }
+   h2{
+       font-size:0.825em;
+       margin-bottom: 20px;
+   }
+   header{	   
+       margin-bottom: 0;
+	}
+   
+   .profile-photo {
+    	text-align:center;
+   	 	max-width: 300px;
+    	max-height:300px;
+    	margin: 0 5% 80px 0;
+    	border-radius: 25%;
+	}
+
+ 	.flex-container {
+		min-width: 150px;
+		max-width: 600px;
+		margin-top: 20px;
+		margin: 0 auto;
+    	padding: .5% 5%;
+		z-index: -1;
+	}
+	
+}
+
+@media screen and (min-width: 1920px){ 
+
+	.flex-container {
+		min-width: 150px;
+		max-width: 1130px;
+		margin-top: 20px;
+		margin: 0 auto;
+    	padding: .5% 5%;
+		z-index: -1;
+	}
+
+nav ul li {
+	   font: bold 20px/22px sans-serif;
+	   display: inline-block;
+	   margin-right: -4px;
+	   padding: 15px 15px;
+	   position:relative;
+	   z-index: 4;
+	   background: #362F30;
+	   color:fff;
+	   cursor: pointer;
+	   -webkit-transition: all 0.2s;
+	   -moz-transition: all 0.2s;
+	   -ms-transition: all 0.2s;
+	   -o-transition: all 0.2s;
+	   transition: all 0.2s;
+   }
+
+}
+
